@@ -1,1 +1,103 @@
 
+{
+  "hero": {
+    "id": "hero01",
+    "title": "Big Buck Bunny",
+    "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Big_Buck_Bunny_thumbnail_vlc.png/1200px-Big_Buck_Bunny_thumbnail_vlc.png",
+    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "type": "video"
+  },
+  "categories": [
+    {
+      "title": "Trending Now",
+      "items": [
+        {
+          "id": "vid01",
+          "title": "Elephants Dream",
+          "description": "The first-ever open movie, made with open source graphics software Blender. Short film.",
+          "thumbnail": "https://i.ytimg.com/vi_webp/wtLJPvx7-ys/maxresdefault.webp",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "type": "video"
+        },
+        {
+          "id": "vid02",
+          "title": "Sintel",
+          "description": "A homeless outcast, Sintel, is stalked by a dragon. She has to fight it, but it is not what it seems.",
+          "thumbnail": "https://i.ytimg.com/vi/eRsGyueVLvQ/maxresdefault.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "type": "video"
+        },
+        {
+          "id": "yt01",
+          "title": "React in 100 Seconds",
+          "description": "A quick overview of React.js.",
+          "thumbnail": "https://i.ytimg.com/vi/Tn6-PIqc4UM/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+          "type": "youtube"
+        },
+        {
+          "id": "m3u8_01",
+          "title": "Live Stream Example",
+          "description": "An example of an M3U8 live stream.",
+          "thumbnail": "https://picsum.photos/800/450?random=1",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "type": "m3u8"
+        },
+        {
+          "id": "vid03",
+          "title": "For Bigger Blazes",
+          "description": "HBO GO now works with Chromecast -- gaia.",
+          "thumbnail": "https://i.ytimg.com/vi/d_e1s-8F9qk/maxresdefault.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "title": "Featured Series",
+      "items": [
+        {
+          "id": "vid04",
+          "title": "Tears of Steel",
+          "description": "In an apocalyptic future, a group of soldiers and scientists fight against giant robots.",
+          "thumbnail": "https://i.ytimg.com/vi/R6MlUcmOul8/maxresdefault.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "type": "video"
+        },
+        {
+          "id": "vid05",
+          "title": "For Bigger Fun",
+          "description": "Google Chromecast: For Bigger Fun. The song is.",
+          "thumbnail": "https://i.ytimg.com/vi/DRq2iH6_p3g/maxresdefault.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "type": "video"
+        },
+        {
+          "id": "m3u8_02",
+          "title": "Apple Advanced HLS",
+          "description": "Another M3U8 stream example from Apple.",
+          "thumbnail": "https://picsum.photos/800/450?random=2",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
+          "type": "m3u8"
+        },
+        {
+          "id": "yt02",
+          "title": "What is Tailwind CSS?",
+          "description": "An introduction to the utility-first CSS framework.",
+          "thumbnail": "https://i.ytimg.com/vi/pfaSUYaSgPo/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=pfaSUYaSgPo",
+          "type": "youtube"
+        },
+        {
+            "id": "vid06",
+            "title": "For Bigger Escapes",
+            "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV.",
+            "thumbnail": "https://i.ytimg.com/vi/VOo25a-WJgE/maxresdefault.jpg",
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "type": "video"
+        }
+      ]
+    }
+  ]
+}
