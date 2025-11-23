@@ -47,7 +47,7 @@
         {
           "id": "thoitiet",
           "title": "Thời tiết hôm nay",
-          "description": "Cập nhật thông tin mới nhất.",
+          "description": "Cập nhật thông tin mới nhất với dplay.",
           "thumbnail": "https://picsum.photos/800/450?random=1",
           "url": "https://static-gstudio.glianetwork.com/account/2302/6bd15b8684c53fe74c28537fc2f5db7f0599b873.mp4",
           "type": "video"
