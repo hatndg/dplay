@@ -45,11 +45,11 @@
           "type": "m3u8"
         },
         {
-          "id": "vid03",
-          "title": "For Bigger Blazes",
-          "description": "HBO GO now works with Chromecast -- gaia.",
+          "id": "thoitiet",
+          "title": "Thời tiết hôm nay",
+          "description": "Cập nhật thông tin mới nhất.",
           "thumbnail": "https://i.ytimg.com/vi/d_e1s-8F9qk/maxresdefault.jpg",
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "url": "",
           "type": "video"
         }
       ]
