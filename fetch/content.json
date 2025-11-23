@@ -55,14 +55,14 @@
       ]
     },
     {
-      "title": "Featured Series",
+      "title": "Sự kiện và cập nhật",
       "items": [
         {
           "id": "vid04",
-          "title": "Tears of Steel",
+          "title": "Hội chợ ẩm thực Trường THPT Phan Bội Châu-Phan Thiết 2025",
           "description": "In an apocalyptic future, a group of soldiers and scientists fight against giant robots.",
-          "thumbnail": "https://i.ytimg.com/vi/R6MlUcmOul8/maxresdefault.jpg",
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "thumbnail": "https://i3.ytimg.com/vi/rwMOWW7U98g/maxresdefault.jpg",
+          "url": "https://youtu.be/rwMOWW7U98g",
           "type": "video"
         },
         {
