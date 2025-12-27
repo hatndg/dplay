@@ -1,4 +1,3 @@
-
 {
   "hero": {
     "id": "hero01",
@@ -8,6 +7,16 @@
     "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "type": "video"
   },
+  "liveEvents": [
+    {
+      "id": "live_1766795588937",
+      "title": "Vietnam Today",
+      "description": "Vietnam Today is an English-language Vietnamese television channel operated by the state-owned national broadcaster, Vietnam Television (VTV). Launched on September 7, 2025, with an aim to provide a \"comprehensive and contemporary view of the country for a global audience\", covering a broad spectrum of topics from politics and business to culture and tourism.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vietnam_Today_Logo.png/330px-Vietnam_Today_Logo.png",
+      "url": "https://vtvgolive-ssaimh.vtvdigital.vn/ELh2_-h-8kMoe7vrYJB42w/1766801237/manifest/vietnamtoday/master-pre.m3u8",
+      "type": "m3u8"
+    }
+  ],
   "categories": [
     {
       "title": "Khám phá",
@@ -106,12 +115,12 @@
           "type": "youtube"
         },
         {
-            "id": "vid06",
-            "title": "For Bigger Escapes",
-            "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV.",
-            "thumbnail": "https://i.ytimg.com/vi/VOo25a-WJgE/maxresdefault.jpg",
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-            "type": "video"
+          "id": "vid06",
+          "title": "For Bigger Escapes",
+          "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV.",
+          "thumbnail": "https://i.ytimg.com/vi/VOo25a-WJgE/maxresdefault.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "type": "video"
         }
       ]
     }
