@@ -22,20 +22,20 @@
       "title": "Hội trại Xuan 2026",
       "items": [
         {
-          "id": "vid01",
+          "id": "htxpbc26-shotcollection",
           "title": "Tổng hợp các shot quay đẹp trong chương trình văn nghệ",
-          "description": "The first-ever open movie, made with open source graphics software Blender. Short film.",
+          "description": "Tổng hợp những khoảnh khắc sân khấu ấn tượng và các góc quay đẹp nhất trong chương trình văn nghệ tại Hội trại Xuân 2026. Video ghi lại không khí sôi động, cảm xúc thăng hoa và những màn trình diễn đáng nhớ của các tiết mục trong đêm hội.",
           "thumbnail": "https://i.ytimg.com/vi_webp/ucrx16VZk1E/maxresdefault.webp",
-          "url": "https://video.xx.fbcdn.net/o1/v/t2/f2/m412/AQN_CsaRwr_ptsFId3pk4-iGHUpdg0TzFLfK-_G2--f96BBIiyzzGcoUCW2lQ0ZqA91SbW73KbjAOxntnCWiDUHErkNZjdaUaGiNbCnWBg.mp4?_nc_cat=104&_nc_oc=AdnOV5zOBDC6JbfTF8gw8OjU01V3bDcM1s8kY6qZwueg0mntX1nX5VOBeG2kk1TKzRaKpjT1NV__J8gN221Mjyt9&_nc_sid=8bf8fe&_nc_ht=scontent.fsgn3-1.fna.fbcdn.net&_nc_ohc=qFZDKyh60eUQ7kNvwEllAdw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5GQUNFQk9PSy4uQzMuNjQwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE1MjMyNjg2NTUxNzI3MCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMTIxLCJkdXJhdGlvbl9zIjozOTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=fB7FA7gstePOoXz0q1Y2iw&_nc_zt=28&_nc_rml=0&oh=00_AfvuuTofD9g2WP-WZhMEwZypYZdOT0siUbFKXgFe-hb53Q&oe=6990BB56&bitrate=566897&tag=sve_sd",
-          "type": "video"
+          "url": "https://www.youtube.com/watch?v=ucrx16VZk1E",
+          "type": "youtube"
         },
         {
-          "id": "vid02",
-          "title": "Sintel",
-          "description": "A homeless outcast, Sintel, is stalked by a dragon. She has to fight it, but it is not what it seems.",
-          "thumbnail": "https://i.ytimg.com/vi/eRsGyueVLvQ/maxresdefault.jpg",
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "type": "video"
+          "id": "htxpbc26-fullvannghe",
+          "title": "Full Chương Trình Văn Nghệ Hội Trại Xuân 2026 | Đảng, Mùa Xuân Và Tuổi Trẻ (2K)",
+          "description": "Toàn bộ chương trình văn nghệ Hội Trại Xuân 2026 được ghi lại trọn vẹn với chất lượng 2K sắc nét, mang đến những tiết mục đặc sắc, giàu cảm xúc và đậm chất tuổi trẻ. Chương trình là sự kết hợp hài hòa giữa âm nhạc, vũ đạo và diễn xuất, thể hiện tinh thần đoàn kết, sáng tạo và nhiệt huyết của các trại sinh. Mỗi tiết mục không chỉ là một phần trình diễn mà còn là một mảnh ghép kỷ niệm đáng nhớ của mùa xuân, của tình bạn và của những ngày hội trại rực rỡ.",
+          "thumbnail": "https://i.ytimg.com/vi/1ZbEsZqqBZc/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=1ZbEsZqqBZc",
+          "type": "youtube"
         },
         {
           "id": "yt01",
