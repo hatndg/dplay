@@ -1,0 +1,138 @@
+name: Add Content To content.json
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "Category"
+        required: true
+        default: "Sự kiện và cập nhật"
+
+      id:
+        description: "ID (để trống sẽ tự tạo)"
+        required: false
+
+      title:
+        description: "Title"
+        required: true
+
+      description:
+        description: "Description"
+        required: true
+
+      thumbnail:
+        description: "Thumbnail URL"
+        required: true
+
+      url:
+        description: "Video URL"
+        required: true
+
+      type:
+        description: "youtube | video | m3u8"
+        required: true
+        default: "youtube"
+
+permissions:
+  contents: write
+
+jobs:
+  add-content:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update content.json
+        env:
+          CATEGORY: ${{ github.event.inputs.category }}
+          ITEM_ID: ${{ github.event.inputs.id }}
+          TITLE: ${{ github.event.inputs.title }}
+          DESCRIPTION: ${{ github.event.inputs.description }}
+          THUMBNAIL: ${{ github.event.inputs.thumbnail }}
+          URL: ${{ github.event.inputs.url }}
+          TYPE: ${{ github.event.inputs.type }}
+        run: |
+          cat > update.js << 'EOF'
+          const fs = require('fs');
+
+          const FILE = 'fetch/content.json';
+
+          if (!fs.existsSync(FILE)) {
+            throw new Error('content.json not found');
+          }
+
+          const data = JSON.parse(
+            fs.readFileSync(FILE, 'utf8')
+          );
+
+          let id = process.env.ITEM_ID;
+
+          if (!id || id.trim() === '') {
+            id =
+              'item_' +
+              Date.now() +
+              '_' +
+              Math.random().toString(36).substring(2, 8);
+          }
+
+          const item = {
+            id,
+            title: process.env.TITLE,
+            description: process.env.DESCRIPTION,
+            thumbnail: process.env.THUMBNAIL,
+            url: process.env.URL,
+            type: process.env.TYPE
+          };
+
+          if (!Array.isArray(data.categories)) {
+            data.categories = [];
+          }
+
+          let category = data.categories.find(
+            c => c.title === process.env.CATEGORY
+          );
+
+          if (!category) {
+            category = {
+              title: process.env.CATEGORY,
+              items: []
+            };
+
+            data.categories.push(category);
+          }
+
+          if (!Array.isArray(category.items)) {
+            category.items = [];
+          }
+
+          category.items.unshift(item);
+
+          fs.writeFileSync(
+            FILE,
+            JSON.stringify(data, null, 2)
+          );
+
+          console.log('Added item:', item);
+          EOF
+
+          node update.js
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add content.json
+
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Add content: ${{ github.event.inputs.title }}"
+
+          git push
